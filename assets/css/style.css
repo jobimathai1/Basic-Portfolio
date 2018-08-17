@@ -1,15 +1,43 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+body{
+    background-image: url('../images/gravel.png')
 }
 
 .heading {
     color: white;
     background-color: #4aaaa5;
+    padding-top: 20px;
     width: 200px;
-    text-align: center
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 .selfie {
-    width: 250px;
-    height: 280px;
+    width: 150px;
+    height: 180px;
     float: left;
+    padding-right: 25px;
+}
+
+#h2head {
+    color: #4aaaa5
+}
+
+.right{
+    text-align: right
+}
+
+#link {
+    display: inline;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.mainHeader{
+    background-color: #ffffff;
+    border-color: #cccccc
+}
+
+.aboutMe{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif
 }

@@ -1,0 +1,15 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.heading {
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center
+}
+.selfie {
+    width: 250px;
+    height: 280px;
+    float: left;
+}

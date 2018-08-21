@@ -6,17 +6,26 @@
     margin-right: auto;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #666666;
+    margin: 1em 0;
+    padding: 0;
+}
+
 h1 {
-    margin-left: 10.0%;
     color: white;
     text-align: center;
     background-color: #4aaaa5;
     padding-top: 20px;
     width: 200px;
-    text-align: left;
+    text-align: left, center;
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-right: 10.0%;
+    
 }
 
 .selfie {
@@ -24,16 +33,17 @@ h1 {
     height: 180px;
     float: left;
     padding-right: 25px;
+    position: relative;
 }
 
-#h2head {
+#sectionTitle {
     color: #4aaaa5;
 }
 
  a {
     position: relative;
-    left: 33%;
-    bottom: 40px;
+    left:10%;
+    bottom: 60px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,10 +53,13 @@ h1 {
 .mainHeader{
     background-color: #ffffff;
     border-color: #cccccc;
+    width: 1960px;
     height: 55px;
+    margin-left: -39.9%;
+    margin-right: 33.3%;
 }
 
-.aboutMe{
+.sectionName{
     background-color: #ffffff;
     border-color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,5 +77,13 @@ h1 {
     margin-left: -33.3%;
     margin-right:33.3%;
     position: fixed;
+}
+
+.contact{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+
 
 }

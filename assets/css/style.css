@@ -84,6 +84,61 @@ h1 {
     border-color: #dddddd;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+}
 
+.contactInfo{
+    background-color: white;
+    margin-bottom: 5em;
+}
 
+#name {
+    width: 895px;
+    height: 35px;
+    margin-left: 1em;
+    padding-top: 0.3rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.6rem;
+
+}
+
+#emailAddress{
+    width: 895px;
+    height: 35px;
+    margin-left: 1em;
+    padding-top: 0.3em;
+    padding-right: 0.6em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em;
+}
+
+#message{
+    width: 895px;
+    height: 195px;
+    margin-left: 1em;
+    padding-top: 0.3em;
+    padding-right: 0.6em;
+    padding-bottom: 0.3em;
+    padding-left: 0.6em;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-left: 1em;
+}
+
+button{
+    max-width: 114px;
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    width: 96px;
+    height: 37px;
+    font-family: Arial, Helvetica, sans-serif;
 }
